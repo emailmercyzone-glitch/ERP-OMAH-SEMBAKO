@@ -1,0 +1,6 @@
+{
+  "name": "Omah ERP",
+  "description": "Offline-first retail ERP for UMKM sembako with POS, strict FIFO inventory, multi-account cash & debt management.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
