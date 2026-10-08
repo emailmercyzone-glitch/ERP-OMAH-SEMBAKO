@@ -85,9 +85,14 @@ fun DashboardScreen(
                         modifier = Modifier
                             .fillMaxWidth()
                             .height(130.dp)
+                            .background(
+                                Brush.horizontalGradient(
+                                    colors = listOf(Color(0xFF1B5E20), Color(0xFF2E7D32))
+                                )
+                            )
                     ) {
                         Image(
-                            painter = painterResource(id = R.drawable.omah_store_banner_1791270005309),
+                            painter = painterResource(id = R.drawable.omah_store_banner),
                             contentDescription = "Omah Sembako Banner",
                             contentScale = ContentScale.Crop,
                             modifier = Modifier.fillMaxSize()
